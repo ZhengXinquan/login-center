@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>登录-关尔先生</title>
+    <meta
+      name="keywords"
+      content="关尔先生,个人博客,诗词推荐,文艺博客,读书笔记，我们的故事,沙拉小姐"
+    />
+    <meta
+      name="description"
+      content="关尔先生个人博客网站是一个关注个人博客建设、前端学习、书籍阅读、文章写作的博客。世界是意志的表象，表象是人类的虚妄"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="//cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="layer.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <h1>退出中，请稍候……</h1>
+  </body>
+
+  <script>
+    (function () {
+      var indexJs = document.createElement('script');
+      const API = location.origin.includes('nanshanqiao.com')
+        ? 'www.nanshanqiao.com'
+        : '127.0.0.1:8081';
+      const HTTPS_TEXT = location.protocol + '//';
+      indexJs.src = HTTPS_TEXT + API + '/zz_js/index.js';
+      indexJs.onload = function () {
+        indexJsReadyFn();
+      };
+      const FIRST_SCRIPT = document.getElementsByTagName('script')[0];
+      FIRST_SCRIPT.parentNode.insertBefore(indexJs, FIRST_SCRIPT);
+    })();
+
+    function indexJsReadyFn() {
+      $(document).ready(function () {
+        logoutApi();
+      });
+    }
+  </script>
+</html>

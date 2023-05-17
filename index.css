@@ -1,0 +1,440 @@
+/*https://www.ziti163.com/Down/*/
+/*手写泡芙 SXPF*/
+/*简体草书 jtcs*/
+/*创意繁体 CYFT*/
+/*书法楷体 SFKT*/
+/*米芾草书  MFCS*/
+/*经典粗黑 JDCH*/
+/*时尚钢笔 SSGB*/
+/*流行草书 LXCS*/
+/*黑板报 HBB*/	
+			html,
+			body {
+				height: 100%;
+				padding: 0;
+				background-color: #ebebeb;
+				font-family: "microsoft yahei";
+			}
+				img {
+				max-width: 100%;
+			}		
+			#section1 {
+				background-image: url(/zz_img/bk.jpg);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				min-height: 800px;
+			}
+			
+			#section1>.row:first-child {
+				margin-top: 50px;
+			}
+			
+			.navbar-brand {
+				padding: 0;
+				padding-left: 0.5rem;
+				padding-top: 5px;
+			}
+			
+			.navbar {
+				background-color: #ebebeb;
+				/*background-color: rgba(0, 0, 0, 0.2);*/
+				/*background: none;
+				border: none;*/
+			}
+			
+			.navbar-nav a {
+				font-weight: bold;
+				font-size: 1.5em;
+				/*text-shadow: 1px 1px 2px #fff;*/
+				text-align: center;
+				/*background-color: rgba(235, 235, 235, 0.5);*/
+			font-family:  "SXPF";
+			}
+			
+			.navbar-default .navbar-nav>.active>a {
+				background-color: antiquewhite;
+	
+				
+			}
+			.title-first{
+				text-align: center;
+				color: #000;
+				text-shadow: 1px 1px 1px #000;
+				font-size: 4em;
+				font-family:"LXCS";
+			}
+			.title-second {
+				color: #000;
+				text-shadow: 1px 1px 1px #000;
+				font-size: 2em;
+				font-family:"LXCS";
+			}
+			
+			.post {
+				padding: 5%;
+				background: #ffffff;
+				margin-bottom: 35px;
+				position: relative;
+				overflow: hidden;
+			}
+			
+			.post .post-head {
+				text-align: center;
+			}
+			
+			.post .post-head .post-title {
+				margin: 0;
+				font-family: "HBB";
+			}
+			
+			.post .post-head .post-title a {
+				color: #303030;
+			}
+			
+			.post .post-head .post-title a:hover,
+			.post .post-head .post-title a:focus {
+				text-decoration: none;
+			}
+			
+			.post .post-head .post-meta {
+				color: #959595;
+				margin: 14px 0 0px;
+				font-family:  "HBB";
+				
+			}
+			.post .post-head .post-meta .author a{
+				font-family: "SXPF";
+				font-weight: bold;
+			}
+	
+			
+			.post .featured-media {
+				margin-top: 5px;
+				overflow: hidden;
+				max-height: 250px;
+				text-align: center;
+			}
+			
+			.post .featured-media img {
+				max-width: 100%;
+			}
+			
+			.post .post-content {
+				margin: 5px 0;
+			}
+			
+			.post .post-footer {
+				margin-top: 5px;
+				border-top: 1px solid #ebebeb;
+				padding: 5px 0 0;
+			}
+			
+			.post .post-footer .tag-list {
+				color: #959595;
+				line-height: 28px;
+			}
+			
+			.post .post-footer .tag-list a {
+				color: #959595;
+				margin-left: 7px;
+				font-family: "SXPF";
+			}
+			
+			.post .post-footer .tag-list a:hover {
+				color: #e67e22;
+			}
+			.post .post-footer .pull-right{
+				font-family: "SXPF";
+			}
+			.post-introduction {
+				color: #444443;
+				margin-top: 20px;
+				text-align: center;
+				font-family: "SXPF";
+			}
+			/*article-list*/
+			
+			.article-list-box hr {
+				border: solid 1px #ccc;
+			}
+			
+			.article-list-box {
+				background-color: rgba(235, 235, 235, 0.75);
+				/*box-shadow: 1px 1px 10px #303030;*/
+			}
+			.article-list-box>h1{
+				font-family: "SXPF";
+			}
+			
+			.article-list {
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+			
+			.title_year,
+			.article-list-title,
+			.article-list-time {
+				font-family: "EquityB";
+				line-height: 3rem;
+				padding: 1rem 0;
+			}
+			
+			.title_year {
+				display: inline-block;
+				padding: 0;
+				margin: 0;
+				margin-top: 1.5rem;
+				font-weight: bold;
+				font-size: 3rem;
+				font-family:"HBB";
+			}
+			
+			.article-list-title {
+				font-size: 2rem;
+	
+			}
+			.article-list-title a{
+				font-family: "HBB";
+			}
+			.article-list-title small{
+				font-family: "SXPF";
+			}
+			
+			.article-list-time {
+				text-shadow: 1px 1px 1px #fff;
+				font-size: 1.75rem;
+				text-align: right;
+				padding-right: 1em;
+				font-family:"HBB";
+			}
+			
+			.article-list-introduction {}
+			/*article*/
+			
+			.article {
+				background-color: rgba(255, 255, 255, 0.85);
+				font-family:"HBB";
+			}
+			.article .article-title{
+				font-family: "SXPF";
+			}
+			
+			.article blockquote {
+				background-color: #EcEcEc;
+				font-family: "SXPF";
+			}
+			
+			.article .article-title .glyphicon {
+				padding: 0 .25em;
+			}
+			
+			.article .article-create_name {
+				text-align: right;
+			}
+			
+			.article .article-create_time {
+				padding-right: 1em;
+			}
+			
+			.article .article-create_name .glyphicon {
+				padding: 0 .25em;
+			}
+			
+			.article .article-key_word {
+				padding: 2em 0;
+			}
+			
+			.article .article-key_word a {
+				padding: 0 .5em;
+				color: #444443;
+					font-family: "SXPF";
+			}
+			.article .article-content{
+				font-family: "microsoft yahei";
+			}
+			/* editor*/
+			
+			#editor {
+				max-height: 250px;
+				height: 100px;
+				background-color: white;
+				border-collapse: separate;
+				border: 1px solid rgb(204, 204, 204);
+				padding: 4px;
+				box-sizing: content-box;
+				-webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+				box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+				border-top-right-radius: 3px;
+				border-bottom-right-radius: 3px;
+				border-bottom-left-radius: 3px;
+				border-top-left-radius: 3px;
+				overflow: scroll;
+				outline: none;
+			}
+			#editor_go{
+				font-family: "SXPF";
+				font-weight: bold;
+			}
+			.upArticleEditor {
+				min-height: 500px;
+			}
+			
+			.editor-toolbar {
+				padding: 0;
+			}
+			
+			div[data-role="editor-toolbar"] {
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			
+			.dropdown-menu a {
+				cursor: pointer;
+			}
+			
+			@media (max-width:768px) {
+				.btn-submit-search {
+					display: block;
+					width: 100%;
+				}
+				.first-group {
+					margin-left: 5px;
+				}
+			}
+			/*comment*/
+			
+			.comment {
+				margin: 1em 0;
+				padding: 1em 0;
+				font-family: "SXPF";
+			}
+			
+			.comment .comment-say {
+				padding-top: 2em;
+				margin-top: 2em;
+				border-top: ridge 1px #ccc;
+			}
+			
+			.comment .comment-click-reply {
+				cursor: pointer;
+				color: royalblue;
+			}
+			
+			.comment .comment-content {
+				margin-top: 0.5em;
+			
+				font-family: "microsoft yahei";
+			}
+			/*photo*/
+			ul#myTab{
+				font-family: "SXPF";
+				font-size: 1.2em;
+				
+			}
+			
+			/*book*/
+			
+			.book-box {
+				/*height: 520px;	*/
+				overflow: hidden;
+				
+			}
+			
+			.book-box>.thumbnail {
+				height: 500px;
+				overflow: hidden;
+			}
+			
+			.book-box>.thumbnail>img {
+				max-height: 372px;
+				width: 100%;
+				overflow: hidden;
+			}
+			
+			.book-box>.thumbnail>.caption {
+				height: 120px;
+				overflow: hidden;
+			
+			}
+			.book-box>.thumbnail>.caption>h3{
+					font-family:"LXCS";
+			}
+			.book-box>.thumbnail>.caption>p {
+				height: 55%;
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+		
+			}
+			
+			.book-box>.thumbnail>.caption>p:last-child {
+				height: 25%;
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+			}
+			
+			.book-box>.thumbnail>.caption>h3 {
+				height: 30%;
+				padding: 0;
+				margin: 0;
+				overflow: hidden;
+			}
+			/*link*/
+			.link-box {
+				margin: 5% auto;
+				font-family: "SXPF";
+			}
+			
+			.link-box>a {
+				background: none;
+				border: none;
+				box-shadow: 1px 1px 10px #222222;
+			}
+			
+			.link-box>a>h4 {
+				display: inline-block;
+				padding: 0 1em;
+				color: #000000;
+				overflow: hidden;
+			}
+			
+			.link-box>a>img {
+				max-width: 50px;
+				box-shadow: 1px 1px 1px #222222;
+			}
+			
+			.login-form {
+				margin-top: 20%;
+					font-family: "SXPF";
+					font-size: 1.2em;
+			}
+			.login-form button{
+				
+				font-weight: bold;
+			}
+			.console-box {
+				background: #FFF;
+			}
+			
+			body .demo-class .layui-layer-title {
+				background: #c00;
+				color: #fff;
+				border: none;
+			}
+			
+			body .demo-class .layui-layer-btn {
+				border-top: 1px solid #E9E7E7
+			}
+			
+			body .demo-class .layui-layer-btn a {
+				background: #333;
+			}
+			
+			body .demo-class .layui-layer-btn .layui-layer-btn1 {
+				background: #999;
+			}
